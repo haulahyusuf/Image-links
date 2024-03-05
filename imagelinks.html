@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header, nav, main, footer {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 14px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 10px;
+            margin: 20px;
+            text-decoration: none;
+            border-radius: 14px;
+        }
+        button a {
+            color: #fff;
+            text-decoration: none;
+        }    
+        a {
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 14px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu-list li {
+            margin-bottom: 10px;
+        }
+        .menu-list img {
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>HM&Y</h1>
+        <p>Your Gateway to Tech, Nature, and Food Exploration.</p>
+</header>
+
+    <nav>
+        <button><a href="#home">Home</a></button>
+        <button><a href="#gallery">Gallery</a></button>
+        <button><a href="#menu">Menu</a></button>
+    </nav>
+
+<main>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Explore the fusion of tech, nature, and food. <br>
+            Join us on a journey where curiosity meets creativity. Let's explore, connect, and delight together</p>
+            <a href="https://unsplash.com/photos/two-white-and-black-electronic-device-with-wheels-6NUlOHM40w8">
+                <img src="robotics.jpeg" alt="Robotics machine">
+            </a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Immerse yourself in the beauty of nature.</p>
+        <div class="gallery">
+            <a href="https://unsplash.com/photos/a-small-waterfall-in-a-forest-4vg51iv2v-s">
+                <img src="waterfall1.jpeg" alt="Waterfall in a forest">
+            </a>
+            <a href="https://unsplash.com/photos/a-waterfall-in-the-woods-with-a-man-standing-next-to-it-dsHOiEIwk9U">
+                <img src="waterfall3.jpeg" alt="Waterfall in the woods">
+            </a>
+            <a href="https://unsplash.com/photos/water-falls-on-rocky-mountain-mfqZNtQw8yU">
+                <img src="waterfall4.jpeg" alt="Waterfall on a rocky mountain">
+            </a>
+            <a href="https://unsplash.com/photos/waterfalls-between-green-trees-tePtZeHXOus">
+            </a>
+                <img src="waterfall2.jpeg" alt="Waterfalls between green trees">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu-list">
+            <li><a href="https://unsplash.com/photos/close-up-photo-of-a-bowl-of-green-beans-with-almonds-CZG9l3N4YHY">
+                <img src="food3.jpeg" alt="Bowl of green beans with almonds"></a>
+            </li>
+            <li><a href="https://unsplash.com/photos/pasta-in-tomato-sauce-PLyJqEJVre0">
+                <img src="food1.jpeg" alt="Pasta in tomato sauce"></a>
+            </li>
+            <li><a href="https://unsplash.com/photos/grilled-steak-with-vegetables-on-white-ceramic-plate-Yr4n8O_3UPc">
+                <img src="food5.jpeg" alt="Grilled steak with vegetables"></a>
+            </li>
+            <li><a href="https://unsplash.com/photos/meta-balls-with-noodles-served-on-white-ceramic-bowl-AUAuEgUxg5Q">
+                <img src="food7.jpeg" alt="Meat balls with noodles"></a>
+            </li>
+        </ul>
+    </section>
+</main>
+
+    <footer>
+        <p><b>&copy; 2024 HM&Y. All rights reserved.</b></p>
+    </footer>
+
+</body>
+</html>
